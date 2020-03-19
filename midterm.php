@@ -1,5 +1,5 @@
 <?php
-// <!--                                                        #1                                                                               -->
+// <!--                                                        #2                                                                               -->
 // <!-- (10 pts) Write the php code to connect to a remote database, and display an error message if the connection fails.                      -->
 $connection = mysqli_connect("localhost", "root", "", "classregistration");
   if (!$connection) {
@@ -9,7 +9,7 @@ $connection = mysqli_connect("localhost", "root", "", "classregistration");
 
 
 
-// <!--                                                        #2                                                                                 -->
+// <!--                                                        #3                                                                                 -->
 // <!--                        Fill in the missing HTML and php code needed to insert information
                             // into the database administrator table we studied in class.
                             // Assume it has fields admin_id, admin_password, and admin_name.                                                      -->
